@@ -9,13 +9,15 @@ body {
     font-size: 1rem;
   }
 
+/* apparition des menus */
+
   @keyframes appear {
     0% {
       transform: translateY(50%);
       opacity: 0;
     }
     100% {
-      transform: translateY(0);
+      transform: translateY(0%);
       opacity: 1;
     }
   }
@@ -614,7 +616,7 @@ body {
   }
   
   .with span {
-    margin-right: 15px;
+    margin-right: 25px;
   }
   
   .dish-box h4 {
@@ -699,6 +701,7 @@ body {
   }
   footer ul {
     list-style-type: none;
+    padding: 0;
     
   }
   footer ul li {
