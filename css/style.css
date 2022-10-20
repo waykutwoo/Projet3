@@ -268,17 +268,20 @@ body {
     background: #f2f2f2;
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
   }
   @media screen and (min-width: 768px) {
     .main_restaurant {
       display: flex;
       justify-content: space-between;
       flex-flow: row wrap;
+      padding-bottom: 50px;
     }
   }
   @media screen and (min-width: 1280px) {
     .main_restaurant {
       padding: 0 20%;
+      padding-bottom: 50px;
     }
   }
   
@@ -548,8 +551,8 @@ body {
     margin-bottom: -30px;
   }
   .full_menu {
-    overflow-x: hidden;
-    
+    overflow-x: none;
+   
   
   }
 
@@ -557,8 +560,10 @@ body {
     .full_menu {
       display: flex;
       justify-content: space-around;
+      
     }
   }
+  
 
   .menu__header {
     display: flex;
@@ -646,7 +651,7 @@ body {
     font-weight: bold;
     box-shadow: 4px 4px 5px #aaa;
     cursor: pointer;
-    margin: 30px 0;
+    margin: 50px 0;
     padding: 20px;
     width: 50%;
   }
@@ -654,6 +659,7 @@ body {
   @media screen and (min-width: 768px) {
     .btn__order button {
       width: 25%;
+      
     }
   }
   .btn__order button:hover {
@@ -667,7 +673,7 @@ body {
     justify-content: center;
     background-color: #f6f6f6;
     margin-bottom: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     padding-top: 40px;
     
   }
